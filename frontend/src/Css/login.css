@@ -1,0 +1,108 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.react-login{
+    padding-top: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    background: url("https://i.pinimg.com/originals/c0/47/32/c04732ea01d4b58937ed1d8df5f28f0f.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-circle {
+    position: relative;
+    width: 150px;
+    left: -15px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.login-head {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.login-input[type='email'],
+.login-input[type='password'],
+.login-input[type='text'] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.show-password {
+    position: absolute;
+    top: 50%;
+    font-size: small;
+    right: 10px;
+    transform: translate(-20px,-10px);
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 91%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.login-register{
+    position: relative;
+    top:-10px;
+    left: -100px;
+    padding: 10px;
+}
+
+@keyframes letterDrop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animation-h{
+    padding: 10px;
+}
+.welcome-animation .animation-h .animation-span {
+    display: inline-block;
+    opacity: 0;
+    animation: letterDrop 0.5s forwards;
+}

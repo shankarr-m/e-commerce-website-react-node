@@ -1,0 +1,12 @@
+/* Tooltip.css */
+.react-tooltip {
+    position: absolute;
+    top: -30px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    z-index: 9999; 
+}
+  

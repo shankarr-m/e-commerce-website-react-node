@@ -1,0 +1,8 @@
+.react-footer{
+    box-sizing: border-box;
+    border: 0 20px 0 20px black;
+    color: white;
+}
+.footer-head{
+    padding: 10px;
+}

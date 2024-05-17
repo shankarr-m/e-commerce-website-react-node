@@ -1,0 +1,67 @@
+
+
+.react-register {
+    padding-top: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    background: url("https://files.123freevectors.com/wp-content/original/147971-blue-and-white-wave-background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-head{
+    text-align: center;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.register-input[type='text'],
+.register-input[type='email'],
+.register-input[type='number'],
+.register-input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.register-input[type='checkbox'] {
+    margin-right: 5px;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.06);
+
+}

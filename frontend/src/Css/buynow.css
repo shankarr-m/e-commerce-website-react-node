@@ -1,0 +1,118 @@
+.react-buy {
+  background: url("https://static.vecteezy.com/system/resources/previews/021/686/132/non_2x/blue-background-pictures-hd-cyan-wallpaper-download-free-free-photo.jpg");
+  background-size: cover;
+  height: 150dvh;
+  padding-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+
+.buy-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.buy-form {
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.buy-head {
+  text-align: center;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.buy-input[type='text'],
+.buy-input[type='email'],
+.buy-input[type='number'],
+.buy-input[type='password'] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.buy-select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.buy-input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+.buy-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.06);
+
+}
+
+.payment-icon {
+  margin-top: 10px;
+  position: relative;
+  left: 40%;
+}
+
+.payment-head {
+  font-size: 15px;
+  position: relative;
+  left: 30%;
+
+}
+
+.con-values {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px 0 20px 0;
+  height: auto;
+  width: auto;
+}
+
+.con-values:hover {
+  transform: scale(1.05);
+}
+
+.payment-cash-btn {
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+}
+.payment-online-btn {
+  background: white;
+  border-radius: 10px;
+  padding: 2px;
+  border: 1px solid black;
+}
+.payment-cash-btn:hover{
+  transform: scale(1.02);
+}
+.payment-online-btn:hover{
+  transform: scale(1.02);
+}

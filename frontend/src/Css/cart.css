@@ -1,0 +1,14 @@
+.react-cart{
+    padding-top:60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    background: url("https://www.desktopbackground.org/download/1280x960/2015/10/21/1030106_blue-wave-white-hd-wallpapers-wallpapers_1920x1080_h.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.stock-value{
+    display: flex;
+    
+}

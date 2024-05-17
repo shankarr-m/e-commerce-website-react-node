@@ -1,0 +1,18 @@
+.react-product{
+    padding-top: 50px;
+}
+.stock-value{
+    display: flex;
+    align-items: center;
+}
+.input-stock{
+    width: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.product-video{
+    border: 3px solid black;
+    padding: 2px ;
+
+}
