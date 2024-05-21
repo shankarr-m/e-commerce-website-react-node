@@ -19,7 +19,9 @@ app.use(body_parser.urlencoded({extended:true}))
 app.use(express.static('public'))
 app.use(express.json())
 
-app.get("/","<h1>Server Running SuccessFully</h1>")
+app.use("/",(req,res)=>{
+    res.send("Server Running . . .")
+})
 app.use("/auth",userRouter)
 app.use("/products",productRouter)
 
